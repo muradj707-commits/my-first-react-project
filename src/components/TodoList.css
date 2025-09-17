@@ -1,0 +1,63 @@
+body{
+    background-color: black;
+
+}
+.Name{
+    text-align: left;
+    color: hsl(271, 76%, 47%);
+}
+.display{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.input{
+ padding: 3px;
+ flex: 1;
+ margin: right 20px;
+
+
+}
+.Home{
+  max-width: 400px;
+  margin-bottom: 450px;
+  margin-top: 15px;
+  margin-left: 500px;
+  padding: 30px;
+  border: 3px solid #ccc;
+  background-color: darkgray;
+  color: blueviolet;
+  text-align: center;
+}
+.Add-btn, .cancel-btn, .update-btn{
+  padding: 10px 10px  10px;
+  border: none;
+  border-radius: 15px  0   15px;
+  cursor: pointer;
+  background-color: blueviolet;
+  color: black;
+  font-size:  15px;
+}
+
+.edit.btn{
+  background-color: hsl(0, 100%, 80%);
+  border: none;
+  border-radius: 15px;
+  justify-content: space-between;
+}
+.remove.btn{
+  background-color: yellowgreen;
+  border: none;
+  border-radius: 15px;
+  justify-content: space-between;
+}
+.new{
+  color: black;
+
+}
+
+
+
+
+
+
